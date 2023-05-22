@@ -168,6 +168,3 @@ Feature: Endpoint '/latest' returns exchange rate data in real-time for all avai
           "message": "You cannot consume this service"
       }
     """
-
-
-#    //Ensure that api codes 200, 400, 401, 403, 404 are covered
