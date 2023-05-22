@@ -2,6 +2,7 @@
 
 In this repository I added some tests written in `Cucumber/Pactum` for one specific endpoint:
 https://api.apilayer.com/exchangerates_data/latest. 
+
 Tests cover API codes `200`, `400`, `401`, `403`, `404`.
 
 ## Setup 
