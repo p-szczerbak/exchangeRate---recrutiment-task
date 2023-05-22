@@ -1,0 +1,20 @@
+{
+    "name": "exchange_rates_api_tests",
+    "version": "1.0.0",
+    "description": "api tests written in Cucumber",
+    "main": "index.js",
+    "scripts": {
+        "test": "cucumber-js --config config/cucumber.json",
+        "test-publish": "cucumber-js --config config/cucumber.json --publish"
+    },
+    "author": "Paulina",
+    "license": "MIT",
+    "devDependencies": {
+        "@cucumber/cucumber": "latest",
+        "mocha": "latest",
+        "pactum": "latest"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3"
+    }
+}
